@@ -39,7 +39,9 @@ footer {
     background-color: blanchedalmond;
 }
 img {
-    border: solid brown 3px; padding: 0;margin: 3px 3px;
+    border: solid brown 3px; 
+    padding: 0;
+    margin: 3px 3px;
 }
 .order {
     display: flex;
@@ -71,8 +73,8 @@ footer{
     display: grid;
     grid-template-columns: 200px 200px;
     grid-column-gap: 25px;
-    grid-row-gap: 25px;
+    grid-row-gap: 25 px;
 }
 .wrapper img {
-    width: 50px;
+    width: 150px;
 }

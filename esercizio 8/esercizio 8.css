@@ -1,0 +1,93 @@
+body {
+    background-color: antiquewhite;
+    padding-left: 20px;
+    font-size: large;
+}
+
+h1 {
+    color: rgb(100, 73, 3);
+    text-align: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    font-size: 3.25rem;
+}
+
+a {
+    color: #477ca7;
+}
+
+a:visited {
+    color: #614f7e;
+}
+
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eeeeeeaf;
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background: rgb(123, 65, 111);
+    padding: 10px;
+    margin: 0;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+        text-align: center;
+        font-size: 20px
+    }
+}
+
+#headline {
+    margin: 50px 0;
+    text-align: center;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 16px 0;
+    
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+}
