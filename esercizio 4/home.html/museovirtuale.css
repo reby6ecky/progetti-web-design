@@ -73,7 +73,7 @@ footer{
     display: grid;
     grid-template-columns: 200px 200px;
     grid-column-gap: 25px;
-    grid-row-gap: 25 px;
+    grid-row-gap: 25px;
 }
 .wrapper img {
     width: 150px;
